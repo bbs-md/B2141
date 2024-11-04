@@ -29,6 +29,10 @@ public class FormaTest {
         driver.get("https://demoqa.com/automation-practice-form");
         FormaPage formaPage = new FormaPage(driver);
         formaPage.setFirstName("Anatolie");
+        formaPage.setLastName("Ivanov");
+        formaPage.setEmail("bbs.md@mail.ru");
+        formaPage.setGenderMale();
+        formaPage.setState("Rajasthan");
     }
 
     @AfterClass
